@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-25T04:00:49.633Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="dxXMGJCxxPStvaMR4rZv" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-25T05:43:52.894Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="q-7kvbXVVDKO1M3BWlJ3" version="13.6.5" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1426" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="S6mjlUuuefc65Kb8fgyC-108" value="校验进房权限" style="" parent="4" vertex="1">
           <mxGeometry x="85" y="60" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="S6mjlUuuefc65Kb8fgyC-109" value="生成进房&#xa;PrivateMapKey" style="" parent="4" vertex="1">
+        <mxCell id="S6mjlUuuefc65Kb8fgyC-109" value="生成进房&#xa;PrivateMapKey&#xa;1分钟过期" style="" parent="4" vertex="1">
           <mxGeometry x="85" y="132" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="S6mjlUuuefc65Kb8fgyC-129" value="校验进房权限" style="" parent="4" vertex="1">
@@ -67,7 +67,7 @@
         <mxCell id="S6mjlUuuefc65Kb8fgyC-142" value="校验房主角色" style="" parent="4" vertex="1">
           <mxGeometry x="85" y="600" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="S6mjlUuuefc65Kb8fgyC-147" value="生成上麦&#xa;PrivateMapKey" style="" parent="4" vertex="1">
+        <mxCell id="S6mjlUuuefc65Kb8fgyC-147" value="生成上麦&#xa;PrivateMapKey&#xa;1分钟过期" style="" parent="4" vertex="1">
           <mxGeometry x="85" y="760" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RbEWKXzUfmcOPAviiLDR-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
@@ -76,7 +76,7 @@
             <mxPoint x="670" y="287" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RbEWKXzUfmcOPAviiLDR-73" value="发起进房" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RbEWKXzUfmcOPAviiLDR-71" vertex="1" connectable="0">
+        <mxCell id="RbEWKXzUfmcOPAviiLDR-73" value="发起进房，带上PrivateMapKey" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RbEWKXzUfmcOPAviiLDR-71" vertex="1" connectable="0">
           <mxGeometry x="-0.0128" y="1" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
@@ -187,7 +187,7 @@
             <mxPoint x="675" y="894.41" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S6mjlUuuefc65Kb8fgyC-154" value="发起上麦" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S6mjlUuuefc65Kb8fgyC-153" vertex="1" connectable="0">
+        <mxCell id="S6mjlUuuefc65Kb8fgyC-154" value="发起上麦，带上PrivateMapKey" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S6mjlUuuefc65Kb8fgyC-153" vertex="1" connectable="0">
           <mxGeometry x="-0.0128" y="1" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
